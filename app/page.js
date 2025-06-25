@@ -329,7 +329,7 @@ const res = await fetch("/api/chat", {
                         House Tenure Prediction 
                     </figcaption>  
                   </a>
-                  <a href="https://github.com/Hrish52/Seattle-Bird-Call-classNameification" className="bento-item">
+                  <a href="https://github.com/Hrish52/Seattle-Bird-Call-Classification" className="bento-item">
                     <img src="./imgs/Bird.jpeg" alt="Seattle Bird" width="100%" />
                     <figcaption>
                         Seattle Bird Sound Prediction
