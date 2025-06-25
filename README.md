@@ -83,6 +83,7 @@ GEMINI_API_KEY=your_google_api_key_here
 
 Start the dev server:
 npm run dev
+```
 
 ☁️ Deploying to Vercel
 Push your code to GitHub
