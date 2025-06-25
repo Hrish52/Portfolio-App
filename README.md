@@ -1,40 +1,100 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hrishikesh Dhole – Portfolio Website 💼
 
-## Getting Started
+Welcome to my personal portfolio website!  
+This site showcases my background, technical skills, experience, and an interactive **AI-powered chatbot** built using **Google Gemini API**.
 
-First, run the development server:
+🌐 **Live Demo**: [https://hrishikesh-dhole.vercel.app](https://hrishikesh-dhole.vercel.app)
+
+---
+
+## 🚀 Features
+
+- ✨ Modern, responsive design with clean custom CSS
+- 🧠 AI Chatbot trained on my resume and live site using Gemini API (via Google AI Studio)
+- 📄 Resume download available
+- 📱 Mobile-first layout
+- 🌙 Dark mode ready (optional)
+- 💬 Dynamic chat component with user/AI bubbles
+
+---
+
+## 💪 Built With
+
+- [Next.js 14 (App Router)](https://nextjs.org/)
+- [React 18](https://reactjs.org/)
+- [Google Gemini API](https://makersuite.google.com/app)
+- [Vercel Hosting](https://vercel.com)
+
+---
+
+## 📂 Project Structure (App Router)
+
+portfolio-website-google-gemini/
+├── app/
+│ ├── api/chat/route.js → Gemini API + live site content handler
+│ ├── layout.js → App-wide layout
+│ └── page.js → Homepage
+├── public/ → Static assets (resume, icons)
+├── context/ → React context for chat
+├── lib/ → Helpers and config
+├── styles/ → Global and custom CSS
+├── context/Docs.json → Resume/skills grounding data
+├── next.config.mjs → Next.js config
+└── .env.local → Gemini API key (local only)
+
+
+---
+
+## 💡 Gemini AI Chatbot (RAG Style)
+
+This chatbot allows users to ask questions about my skills, resume, and **live site content**.  
+It uses **Google Gemini's `generateContent` endpoint**, powered by:
+
+- `Docs.json`: Manually curated experience/resume snippets
+- `hrishikesh-dhole.vercel.app`: Live content fetched and parsed in real-time
+
+**Prompt Structure Example:**
+You are Hrishikesh’s portfolio assistant.
+Answer ONLY using the context provided below.
+If the answer isn't found, reply: “I don’t know from the provided docs.”
+
+===== DOCUMENTS START =====
+(Resume and skill data from Docs.json)
+===== DOCUMENTS END =====
+
+===== WEBSITE SNAPSHOT =====
+(Live scraped site content)
+===== END WEBSITE SNAPSHOT =====
+
+Question: What are Hrishikesh’s top skills?
+
+
+---
+
+## 🔮 Run Locally
 
 ```bash
+git clone https://github.com/Hrish52/Portfolio-App.git
+cd Portfolio-App
+npm install
+
+Create a .env.local file:
+GEMINI_API_KEY=your_google_api_key_here
+
+Start the dev server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+☁️ Deploying to Vercel
+Push your code to GitHub
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Go to vercel.com → New Project → Import repo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Set GEMINI_API_KEY in Vercel → Settings → Environment Variables
 
-## Learn More
+Deploy and go live!
 
-To learn more about Next.js, take a look at the following resources:
+📩 Contact
+If you'd like to connect or collaborate, feel free to reach out on LinkedIn.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Portfolio-App
->>>>>>> fb869c1f118e07e36ab0850a7d0daeba87287d4e
+📄 License
+This project is open-source and available under the MIT License.
