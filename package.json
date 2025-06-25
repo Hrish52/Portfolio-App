@@ -1,20 +1,27 @@
 {
-  "name": "portfolio-website-azure-ai",
+  "name": "portfolio-website-google-gemini",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare:content": "node app/scripts/extract_to_json.js"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "next": "15.3.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "axios": "^1.10.0",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.1.0",
+    "pdf-parse": "^1.1.1",
     "tailwindcss": "^4"
-  }
+  },
+  "type": "module"
 }
