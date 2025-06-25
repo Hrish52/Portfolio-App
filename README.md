@@ -85,7 +85,8 @@ Start the dev server:
 npm run dev
 ```
 
-☁️ Deploying to Vercel
+---
+## ☁️ Deploying to Vercel
 Push your code to GitHub
 
 Go to vercel.com → New Project → Import repo
@@ -94,8 +95,10 @@ Set GEMINI_API_KEY in Vercel → Settings → Environment Variables
 
 Deploy and go live!
 
-📩 Contact
-If you'd like to connect or collaborate, feel free to reach out on LinkedIn.
+---
+## 📩 Contact
+If you'd like to connect or collaborate, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/hrishikesh-dhole-43b150159/).
 
-📄 License
+---
+## 📄 License
 This project is open-source and available under the MIT License.
