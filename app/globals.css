@@ -609,10 +609,9 @@ h3 {
             flex-direction: row-reverse;
           }
           li.bot .message {
-            margin-left: auto; /* push bubble to extreme right */
+            margin-left: auto;
           }
 
-          /* avatars */
           .avatar {
             width: 48px;
             height: 48px;
@@ -630,7 +629,6 @@ h3 {
             background: var(--purple-400);
           }
 
-          /* message bubbles */
           .message {
             max-width: 70%;
             width: fit-content;
@@ -642,7 +640,7 @@ h3 {
             white-space: pre-wrap;
           }
           li.user .message {
-            border-bottom-left-radius: 6px; /* speech‑tail effect */
+            border-bottom-left-radius: 6px;
           }
           li.bot .message {
             border-bottom-right-radius: 6px;
@@ -675,6 +673,19 @@ h3 {
           min-width: 90px;
           padding: 12px 0;
           border-radius: 10px;
+        }
+      }
+
+      /* mobile-friendly layout */
+      @media (max-width: 768px) {
+        .chat-message {
+          flex-direction: column;
+        }
+
+        .chat-message input,
+        .chat-message button {
+          width: 100%;
+          margin-bottom: 10px;
         }
       }
     }
