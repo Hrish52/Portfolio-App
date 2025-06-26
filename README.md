@@ -102,3 +102,5 @@ If you'd like to connect or collaborate, feel free to reach out on [LinkedIn](ht
 ---
 ## 📄 License
 This project is open-source and available under the MIT License.
+
+Credits to [Adrian Twarog](https://www.linkedin.com/in/adrian-twarog/)'s youtube channel which helped me to build this amazing portfolio
