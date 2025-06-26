@@ -29,19 +29,7 @@ This site showcases my background, technical skills, experience, and an interact
 
 ## 📂 Project Structure (App Router)
 
-portfolio-website-google-gemini/
-├── app/
-│ ├── api/chat/route.js → Gemini API + live site content handler
-│ ├── layout.js → App-wide layout
-│ └── page.js → Homepage
-├── public/ → Static assets (resume, icons)
-├── context/ → React context for chat
-├── lib/ → Helpers and config
-├── styles/ → Global and custom CSS
-├── context/Docs.json → Resume/skills grounding data
-├── next.config.mjs → Next.js config
-└── .env.local → Gemini API key (local only)
-
+![image](https://github.com/user-attachments/assets/b3304908-2f42-47fa-ab75-41b08c0692f2)
 
 ---
 
