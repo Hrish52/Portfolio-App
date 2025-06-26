@@ -42,20 +42,10 @@ It uses **Google Gemini's `generateContent` endpoint**, powered by:
 - `hrishikesh-dhole.vercel.app`: Live content fetched and parsed in real-time
 
 **Prompt Structure Example:**
-You are Hrishikesh’s portfolio assistant.
-Answer ONLY using the context provided below.
-If the answer isn't found, reply: “I don’t know from the provided docs.”
 
-===== DOCUMENTS START =====
-(Resume and skill data from Docs.json)
-===== DOCUMENTS END =====
-
-===== WEBSITE SNAPSHOT =====
-(Live scraped site content)
-===== END WEBSITE SNAPSHOT =====
+![image](https://github.com/user-attachments/assets/1aabeca3-db6e-428f-be76-5241b38cdb0a)
 
 Question: What are Hrishikesh’s top skills?
-
 
 ---
 
