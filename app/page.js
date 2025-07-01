@@ -174,7 +174,7 @@ const res = await fetch("/api/chat", {
 
                     <img src="./imgs/gemini.jpeg" alt="Gemini" width="128" />
                     <img src="./imgs/openai.jpeg" alt="OpenAI" width="128" />
-                    <img src="./imgs/llama.png" alt="Llama" width="128" />
+                    <img src="./imgs/Llama.png" alt="Llama" width="128" />
 
                     <img src="./imgs/nextjs.png" alt="Next.js" width="128" />
                     <img src="./imgs/azure-synapse.jpg" alt="Azure Synapse" width="128" />
