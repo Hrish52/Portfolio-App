@@ -161,7 +161,7 @@ const res = await fetch("/api/chat", {
                     <img src="./imgs/html.png" alt="HTML" width="128" />
                     <img src="./imgs/css.png" alt="CSS" width="128" />
                     <img src="./imgs/javascript.png" alt="JavaScript" width="128" />
-                    <img src="./imgs/React.png" alt="React" width="128" />
+                    <img src="./imgs/react.png" alt="React" width="128" />
 
                     <img src="./imgs/TensorFlow.jpeg" alt="TensorFlow" width="128" />
                     <img src="./imgs/Keras.jpeg" alt="Keras" width="128" />
